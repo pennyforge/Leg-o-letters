@@ -1,0 +1,7 @@
+Hello
+comicbd.ttf
+16
+Yellows
+2
+True
+LightPinks

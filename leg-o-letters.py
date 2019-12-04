@@ -1,10 +1,22 @@
 from __future__ import print_function
 import string
-from PIL import Image
-from PIL import ImageFont
-from PIL import ImageDraw
 
-import numpy,time,datetime,os
+try:
+	from PIL import Image
+	from PIL import ImageFont
+	from PIL import ImageDraw
+except:
+	print ("Opps you need PIL install - try: pip install pillow")
+	print ("Exiting...")
+	sys.exit(0)
+
+try:
+	import numpy,time,datetime,os
+except:
+	print ("Opps you need numpy install - try: pip install numpy")
+	print ("Exiting...")
+	sys.exit(0)
+
 from random import randint
 from copy import deepcopy
 import csv
