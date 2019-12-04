@@ -1,4 +1,4 @@
-# leg-o-letters
+# Leg-o-letters
 Create Lego Letters in the LDRAW file format 
 
 leg-o-letters enables you to create words, letters and characters out of Lego bricks (using system installed fonts) in the LDraw .ldr files format 
